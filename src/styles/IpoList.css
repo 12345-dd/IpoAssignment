@@ -1,0 +1,84 @@
+.ipo-container {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.ipo-header {
+  display: grid;
+  grid-template-columns: 2.5fr 1.2fr 1.2fr 1.5fr;
+  padding: 14px 20px;
+  font-size: 13px;
+  color: #6b7280;
+  background: #f9fafb;
+  font-weight: 500;
+}
+
+.ipo-row {
+  display: grid;
+  grid-template-columns: 2.5fr 1.2fr 1.2fr 1.5fr;
+  align-items: center;
+  padding: 18px 20px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+
+.ipo-row:hover {
+  background: #fafafa;
+}
+
+.ipo-company {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ipo-company img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: contain;
+  border: 1px solid #e5e7eb;
+}
+
+.ipo-company-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.ipo-company-date {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.ipo-cell {
+  font-size: 14px;
+  color: #111827;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.text {
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .ipo-container {
+    overflow-x: auto;
+  }
+
+  .ipo-header {
+    display: grid;
+  }
+
+  .ipo-header,
+  .ipo-row {
+    min-width: 720px;
+  }
+}
+
