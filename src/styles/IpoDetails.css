@@ -52,12 +52,12 @@
   gap: 20px;
 }
 
-.detail .label {
+.label {
   font-size: 13px;
   color: #6b7280;
 }
 
-.detail .value {
+.value {
   font-weight: 600;
   margin-top: 4px;
 }
