@@ -1,8 +1,45 @@
-# React + Vite
+## **IPO Assignment**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based frontend application that displays a list of IPOs and allows users to view detailed information for each IPO.
 
-Currently, two official plugins are available:
+## **Features**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- IPO List in table like layout.
+
+- Click to view IPO details
+
+- Responsive design (desktop & mobile)
+
+- IPO timeline and company details
+
+- Static mock data
+
+
+## **Installation**
+
+1.**Clone the repository**:
+
+  git clone https://github.com/12345-dd/IpoAssignment
+
+2.**Install dependencies**:
+
+  npm install
+
+## **Usage**
+
+To start the development server:
+
+npm run dev
+
+The app will be available at http://localhost:5173/.
+
+## **Live Demo**
+
+The project is hosted on Netlify. You can access it here:
+
+**https://ipolisting.netlify.app/**
+
+
+
+
+
