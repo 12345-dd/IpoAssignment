@@ -2,7 +2,6 @@ export const ipoData = [
     {
         id: 1,
         name: "Ventura Securities",
-        subtitle:"Ventura Securities Ltd",
         issueDate: "12th - 15th Dec 2022",
         issueSize: "3600 Crores",
         priceRange: "50-80",

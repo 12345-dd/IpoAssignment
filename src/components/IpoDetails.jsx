@@ -39,7 +39,7 @@ const IpoDetails = () => {
           </div>
 
           <div className="detail">
-            <p className='label'>Issue size</p>
+            <p className='label'>Minimum Amount</p>
             <p className='value'>&#8377;{ipo.minInvestment}</p>
           </div>
 
